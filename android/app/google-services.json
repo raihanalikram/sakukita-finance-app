@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "462471498103",
+    "project_id": "sakukita-d63a4",
+    "storage_bucket": "sakukita-d63a4.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:462471498103:android:77ef946419673817b5f972",
+        "android_client_info": {
+          "package_name": "com.example.sakukita"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBN9198TbDDS1qhcBY4Ac8_L8nwJTZWjWU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
