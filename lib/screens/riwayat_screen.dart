@@ -290,7 +290,6 @@ class _RiwayatScreenState extends State<RiwayatScreen> {
                                 ? '$tanggalTeks • ${data['catatan']}'
                                 : tanggalTeks;
 
-                            // --- PENERAPAN DISMISSIBLE (GESER UNTUK AKSI) ---
                             return Dismissible(
                               key: Key(docId),
                               direction: DismissDirection.horizontal,

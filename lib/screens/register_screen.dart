@@ -15,7 +15,6 @@ class _RegisterScreenState extends State<RegisterScreen> {
   final TextEditingController _confirmController = TextEditingController();
   bool _isLoading = false;
 
-  // Menghapus controller dari memori saat halaman ditutup
   @override
   void dispose() {
     _nameController.dispose();
@@ -40,7 +39,6 @@ class _RegisterScreenState extends State<RegisterScreen> {
             email: _emailController.text.trim(),
             password: _passwordController.text.trim(),
           );
-      // Update Display Name
       await userCredential.user?.updateDisplayName(_nameController.text.trim());
 
       if (mounted) {
@@ -81,7 +79,6 @@ class _RegisterScreenState extends State<RegisterScreen> {
             ),
             const SizedBox(height: 40),
 
-            // Form Fields
             _buildTextField(
               _nameController,
               'Nama Lengkap',
@@ -118,7 +115,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                   ),
                   elevation: 0.0,
                 ),
-                // Menjaga ukuran loading agar tombol tidak membesar
+
                 child: _isLoading
                     ? const SizedBox(
                         height: 24,
@@ -144,7 +141,6 @@ class _RegisterScreenState extends State<RegisterScreen> {
     );
   }
 
-  // Desain form yang modern, bersih, dan bergaris tipis
   Widget _buildTextField(
     TextEditingController controller,
     String label,

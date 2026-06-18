@@ -46,7 +46,6 @@ class _MainScreenState extends State<MainScreen> {
         child: const Icon(Icons.add, color: Colors.white, size: 28),
       ),
 
-      // KEMBALI KE TENGAH karena jumlah tab sekarang genap (4 tab)
       floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
 
       bottomNavigationBar: BottomNavigationBar(

@@ -62,7 +62,6 @@ class _SplashScreenState extends State<SplashScreen> {
       body: Container(
         width: double.infinity,
         height: double.infinity,
-        // Background Gradient Azure yang senada dengan Tema
         decoration: const BoxDecoration(
           gradient: LinearGradient(
             begin: Alignment.topCenter,
@@ -73,7 +72,7 @@ class _SplashScreenState extends State<SplashScreen> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            // Logo SakuKita di tengah
+            // Logo SakuKita
             Container(
               padding: const EdgeInsets.all(20),
               decoration: BoxDecoration(

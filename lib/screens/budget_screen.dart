@@ -85,7 +85,7 @@ class BudgetScreen extends StatelessWidget {
                 children: [
                   DropdownButtonFormField<String>(
                     isExpanded:
-                        true, // SOLUSI: Menyesuaikan lebar teks dengan ukuran layar
+                        true, 
                     initialValue: kategoriPilihan,
                     decoration: InputDecoration(
                       labelText: 'Kategori Pengeluaran',
@@ -106,7 +106,7 @@ class BudgetScreen extends StatelessWidget {
                             const SizedBox(width: 10),
                             Expanded(
                               child: Text(k, overflow: TextOverflow.ellipsis),
-                            ), // SOLUSI: Mencegah teks menabrak batas
+                            ),
                           ],
                         ),
                       );

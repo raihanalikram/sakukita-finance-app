@@ -533,7 +533,6 @@ class _HomeScreenState extends State<HomeScreen> {
             style: const TextStyle(fontWeight: FontWeight.bold),
           ),
           subtitle: Text(subtitleTeks, style: const TextStyle(fontSize: 12)),
-          // Tombol edit/hapus dihilangkan, ruang teks jadi luas!
           trailing: Text(
             displayNominal,
             style: TextStyle(

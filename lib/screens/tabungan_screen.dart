@@ -45,7 +45,6 @@ class TabunganScreen extends StatelessWidget {
           content: StatefulBuilder(
             builder: (context, setState) {
               return SingleChildScrollView(
-                // SOLUSI: Mengizinkan form digulir (scroll) saat keyboard muncul
                 child: Column(
                   mainAxisSize: MainAxisSize.min,
                   children: [
@@ -53,7 +52,7 @@ class TabunganScreen extends StatelessWidget {
                       controller: namaController,
                       decoration: InputDecoration(
                         labelText: 'Untuk apa tabungan ini?',
-                        hintText: 'Misal: Beli Laptop Baru',
+                        hintText: '',
                         border: OutlineInputBorder(
                           borderRadius: BorderRadius.circular(12),
                         ),
